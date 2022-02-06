@@ -15,7 +15,7 @@ public class SmartBearSoftwareOrderTabPage {
     @FindBy(id = "ctl00_MainContent_fmwOrder_ddlProduct")
     public WebElement dropDown;
 
-    @FindBy(xpath = "//table[@id='ctl00_MainContent_fmwOrder']//li/input")
+    @FindBy(xpath = "//input[contains(@type,'text')]")
     public List<WebElement> inputBoxes;
 
     @FindBy(xpath = "//table[@class='RadioList']//input")
@@ -25,16 +25,16 @@ public class SmartBearSoftwareOrderTabPage {
     public WebElement processButton;
 
     public void userAddressInfo(){
-        inputBoxes.get(5).sendKeys("Burak Simsek");
-        inputBoxes.get(6).sendKeys("3436 N Abc Ave");
-        inputBoxes.get(7).sendKeys("Chicago");
-        inputBoxes.get(8).sendKeys("IL");
-        inputBoxes.get(9).sendKeys("60641");
+        inputBoxes.get(4).sendKeys("Burak Simsek");
+        inputBoxes.get(5).sendKeys("3436 N Abc Ave");
+        inputBoxes.get(6).sendKeys("Chicago");
+        inputBoxes.get(7).sendKeys("IL");
+        inputBoxes.get(8).sendKeys("60641");
     }
 
     public void userPaymentInfo(){
         radioButtons.get(0).click();
-        inputBoxes.get(10).sendKeys("12345");
-        inputBoxes.get(11).sendKeys("12/23");
+        inputBoxes.get(9).sendKeys("12345");
+        inputBoxes.get(10).sendKeys("12/23");
     }
 }
