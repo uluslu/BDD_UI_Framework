@@ -1,6 +1,6 @@
 # BDD_UI_Framework
 
-Cucumber BDD Framework created for UI testing with Java 8 by Burak SIMSEK
+Cucumber BDD Framework created for UI testing with Java 8 and Maven Build Tool by Burak SIMSEK
 
 Dependencies: -SeleniumWebDriver -Cucumber, -WebDriverManager, HRMLUnitDriver, JavaFaker
 
