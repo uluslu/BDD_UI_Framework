@@ -6,6 +6,7 @@ Dependencies: -SeleniumWebDriver -Cucumber, -WebDriverManager, HRMLUnitDriver, J
 
 Plugins: -Surefire for reports
 
-Design Models: Page Object Design Model, Singleton Design Pattern
+Utility Classes: -Alert Handler. -Config Reader -Driver, -Dropdown Utils -Element Utils -Screenshot Utils -Wait Utils
 
-Utility Classes -Alert Handler. -Config Reader -Driver, -Dropdown Utils -Element Utils -Screenshot Utils -Wait Utils
+Design Models: Page Object Design Model(POM), Singleton Design Pattern
+
