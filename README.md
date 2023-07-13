@@ -10,5 +10,5 @@ Plugins: -Surefire for reports
 
 Utility Classes: -Alert Handler. -Config Reader -Driver, -Dropdown Utils -Element Utils -Screenshot Utils -Wait Utils
 
-Design Models: Page Object Design Model(POM), Singleton Design Pattern
+Design Models: Page Object Design Model(POM), Singleton Design Pattern.
 
